@@ -8,7 +8,7 @@ on:
       - '**.md'  # Ignore Markdown files
 
 jobs:
-  lint-and-test:
+  test:
     runs-on: ubuntu-latest
 
     steps:
