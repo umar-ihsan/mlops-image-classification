@@ -57,4 +57,4 @@ st.image(image, width=200)
 st.write('Veg/Fruit in image is ' + data_cat[np.argmax(score)])
 st.write('With accuracy of ' + str(np.max(score) * 100))
 
-print("i added this to test flake8 linting")
+print("i added this to test jenkins job")
