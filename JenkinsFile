@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "muhammadranaumerofficial754/flask-app:latest"
+        DOCKER_IMAGE = "umarihsan/mlops-2:latest"
     }
 
     stages {
