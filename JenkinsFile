@@ -31,7 +31,7 @@ pipeline {
     post {
         success {
               emailext (
-                  to: 'i211113@nu.edu.pk',
+                  to: 'umarmuhammad8370@gmail.com',
                   subject: "Deployment Successful",
                 body: "The master branch has been successfully deployed via Jenkins.",
                   mimeType: 'text/html'
@@ -39,7 +39,7 @@ pipeline {
           }
           failure {
               emailext (
-                  to: 'i211113@nu.edu.pk',
+                  to: 'umarmuhammad8370@gmail.com',
                   subject: "Deployment Failed",
                 body: "There was an issue deploying the master branch. Please check the Jenkins logs.",
                   mimeType: 'text/html'
